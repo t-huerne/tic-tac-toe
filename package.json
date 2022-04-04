@@ -1,0 +1,18 @@
+{
+  "name": "tic-tact-toe",
+  "version": "1.0.0",
+  "description": "A simple tic tac toe game",
+  "scripts": {
+    "css": "node-sass --output-style compressed --include-path scss source.scss style.css",
+    "watch": "nodemon -e scss -x \"yarn run css\""
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Drenhat/tic-tac-toe.git",
+  "author": "Tim Huerne <timothee.huerne@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
